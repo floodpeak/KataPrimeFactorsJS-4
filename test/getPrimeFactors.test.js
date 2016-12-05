@@ -17,4 +17,7 @@ describe('prime factors',function(){
   it('should be [5] for 4',function(){
     expect(getPrimeFactors(5)).to.be.eql([5])
   })
+  it('should be [2,3] for 6',function(){
+    expect(getPrimeFactors(6)).to.be.eql([2,3])
+  })
 })
