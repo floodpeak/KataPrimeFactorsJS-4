@@ -5,9 +5,10 @@ module.exports = function(number){
     results.push(base)
     number /= base
   }
-  if(number % 3 === 0){
-    results.push(3)
-    number /= 3
+  base ++
+  if(number % base === 0){
+    results.push(base)
+    number /= base
   }
   if(number > 1){
     results.push(number)
