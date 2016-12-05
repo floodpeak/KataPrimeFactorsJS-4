@@ -1,11 +1,7 @@
 module.exports = function(number){
   var results = []
   var base = 2
-  if(number % base === 0){
-    results.push(base)
-    number /= base
-  }
-  if(number % base === 0){
+  while(number % base === 0){
     results.push(base)
     number /= base
   }
