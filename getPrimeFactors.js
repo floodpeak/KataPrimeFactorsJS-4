@@ -1,12 +1,11 @@
 module.exports = function(number){
   var results = []
-  var base = 2
-  while(base < number){
+
+  for(var base = 2;base < number;base++){
     while(number % base === 0){
       results.push(base)
       number /= base
     }
-    base ++
   }
   if(number > 1){
     results.push(number)
