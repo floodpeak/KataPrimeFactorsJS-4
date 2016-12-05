@@ -16,3 +16,9 @@ For example:
 	 9 -> [3,3]
 	12 -> [2,2,3]
 	15 -> [3,5]
+
+
+using like
+```
+node index.js 110
+```
