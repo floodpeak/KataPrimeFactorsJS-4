@@ -1,5 +1,5 @@
 module.exports = function(number){
-  if(number === 4 || number === 6){
+  if(number % 2 === 0 && number > 2){
     return [2,number/2]
   }
   if(number > 1){
