@@ -6,7 +6,7 @@ module.exports = function(number){
     number /= base
   }
   base ++
-  if(number % base === 0){
+  while(number % base === 0){
     results.push(base)
     number /= base
   }
