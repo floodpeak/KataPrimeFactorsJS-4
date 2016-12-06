@@ -1,6 +1,6 @@
 # KataPrimeFactorsJS-4
 
-Finished
+### Finished
 
 A practice from http://cyber-dojo.org/
 
